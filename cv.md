@@ -1,6 +1,6 @@
 |Alexander Silchenko      |
 |-------------------------|
-|![Avatar](https://vignette.wikia.nocookie.net/pom/images/0/08/Rico_characterbig.jpg/revision/latest/scale-to-width-down/340?cb=20140813072205&path-prefix=ru)|
+|![Avatar](https://goo.su/2ai4)|
 
 
 |Platform  |Contacts                 |
