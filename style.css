@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  background-color: #2451AF;
+  height: 230px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  border: #3F3F44 solid 3px;
+  border-top: none;
+}
+
+.person>span {
+  text-transform: uppercase;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 13px;
+  padding-bottom: 36px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 8px;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+p,
+ul,
+ol {
+  color: #3a3a3a;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+li {
+  padding-top: 4px;
+}
+
+.content {
+  border-top: #3F3F44 solid 1.5px;
+  margin-top: 40px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+main {
+  padding: 60px 75px;
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "photo person" "photo contacts";
+  column-gap: 75px;
+  grid-auto-flow: row dense;
+}
+
+.photo {
+  grid-column-start: photo-start;
+  grid-column-end: photo-end;
+  grid-row-start: photo-start;
+  grid-row-end: photo-end;
+  border: #3F3F44 solid 3px;
+}
+
+.photo>img {
+  width: 100%;
+}
+
+.person {
+  grid-column-start: person-start;
+  grid-column-end: person-end;
+  grid-row-start: person-start;
+  grid-row-end: person-end;
+}
+
+.contacts {
+  grid-column-start: contacts-start;
+  grid-column-end: contacts-end;
+  grid-row-start: contacts-start;
+  grid-row-end: contacts-end;
+  align-self: end;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr>td:first-child {
+  border-right: #0000ff1c solid 2px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+tr:nth-child(odd) {
+  background: rgba(36, 81, 175, 0.05);
+}
+
+tr:nth-child(even) {
+  border-top: #0000ff1c solid 2px;
+  border-bottom: #0000ff1c solid 2px;
+}
+
+td {
+  padding: 6px 20px;
+  font-style: italic;
+}
