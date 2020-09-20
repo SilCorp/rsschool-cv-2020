@@ -6,7 +6,7 @@
 |Platform  |Contacts                 |
 |----------|-------------------------|
 | Telegram | *@SilCorp*              |
-| E-mail   | *sanys.1998@gmail.com*  |
+| E-mail   | *san4ys.1998@gmail.com*  |
 | Discord  | *SilCorp#7568*          |
 
 ---
